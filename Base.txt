@@ -1,0 +1,51 @@
+Nombres|Edad|Estado_Civil|Salario|Empresa|Coche_Actual
+Hop|52|Soltero|24702145|Altavista|Mercedes-Benz
+Oren|63|Soltero|34134876|Borland|Chevrolet
+Steel|55|Pareja de hecho|11973187|Altavista|Chevrolet
+Lane|48|Pareja de hecho|17705232|Yahoo|Chevrolet
+Hall|27|Viudo|15757690|Lavasoft|Renault
+Kitra|41|Pareja de hecho|15753995|Lavasoft|Ferrari
+Aquila|48|Casado|27962685|Borland|Fiat
+Urielle|39|Soltero|15865010|Microsoft|Audi
+Oren|50|Casado|5988859|Sibelius|Mercedes-Benz
+Thor|23|Divorciado|19813779|Sibelius|Renault
+Ralph|56|Divorciado|25097024|Borland|Chevrolet
+Colin|49|Soltero|34523213|Microsoft|Jeep
+Callie|36|Divorciado|18503739|Finale|Honda
+Marny|25|Soltero|27605911|Lycos|Fiat
+Kamal|27|Divorciado|16283572|Chami|Kia Motors
+Graiden|46|Viudo|16930215|Borland|Mazda
+Ryder|22|Casado|14718363|Finale|Honda
+Stewart|32|Soltero|1704224|Yahoo|BMW
+Amos|44|Viudo|878305|Macromedia|Audi
+Moana|62|Divorciado|556568|Chami|Toyota
+Leo|24|Pareja de hecho|21552983|Cakewalk|Chevrolet
+Alec|37|Pareja de hecho|28140046|Cakewalk|Jeep
+Jael|64|Soltero|13013758|Microsoft|Renault
+Griffith|48|Divorciado|19034731|Finale|Volkswagen
+Molly|61|Pareja de hecho|25500119|Borland|Fiat
+Duncan|34|Pareja de hecho|15796405|Lavasoft|Ferrari
+Moana|27|Pareja de hecho|9223751|Adobe|Peugeot
+Odessa|61|Pareja de hecho|25399289|Chami|Volkswagen
+Caldwell|55|Pareja de hecho|34754247|Finale|Audi
+Selma|63|Soltero|14635359|Cakewalk|Audi
+Jaquelyn|60|Casado|26956140|Altavista|Peugeot
+Ulysses|59|Divorciado|25047899|Finale|Jeep
+Anastasia|56|Divorciado|10737763|Cakewalk|Renault
+Cathleen|59|Casado|25025123|Lavasoft|Kia Motors
+Yen|23|Divorciado|15197932|Macromedia|Chevrolet
+Adara|59|Divorciado|24523210|Adobe|Mercedes-Benz
+Theodore|38|Divorciado|24385497|Yahoo|Fiat
+Desiree|23|Viudo|11743521|Apple Systems|Mazda
+Tyrone|61|Casado|13616245|Google|Mercedes-Benz
+Quynn|46|Soltero|1564562|Yahoo|Mazda
+Cassandra|58|Soltero|7112655|Sibelius|Porsche
+Remedios|65|Viudo|5891964|Yahoo|Kia Motors
+Dieter|42|Soltero|6853971|Apple Systems|Peugeot
+Arsenio|48|Pareja de hecho|23029463|Borland|BMW
+Yuri|56|Soltero|15062015|Adobe|Suzuki
+Elliott|27|Viudo|5486510|Cakewalk|Ford
+Delilah|33|Pareja de hecho|18274243|Chami|Jeep
+Jacob|48|Viudo|14498932|Lavasoft|Mercedes-Benz
+Jane|55|Soltero|27160169|Cakewalk|Ferrari
+Tucker|26|Soltero|30369532|Lavasoft|Volkswagen
