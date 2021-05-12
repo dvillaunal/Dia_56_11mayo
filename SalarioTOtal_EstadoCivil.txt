@@ -1,0 +1,6 @@
+"Estado_Civil" "Salario"
+"Viudo" 71187137
+"Casado" 114267415
+"Divorciado" 199181714
+"Pareja de hecho" 247102960
+"Soltero" 254307400

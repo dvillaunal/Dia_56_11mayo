@@ -1,0 +1,3 @@
+"Nombres" "Edad" "Estado_Civil" "Salario" "Empresa" "Coche_Actual" "Salario_Aumentado"
+"Amos" 44 "Viudo" 878305 "Macromedia" "Audi" 43915250000000
+"Moana" 62 "Divorciado" 556568 "Chami" "Toyota" 27828400000000

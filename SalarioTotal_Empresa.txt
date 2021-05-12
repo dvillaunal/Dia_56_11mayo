@@ -1,0 +1,15 @@
+"Empresa" "Salario"
+"Google" 13616245
+"Macromedia" 16076237
+"Apple Systems" 18597492
+"Lycos" 27605911
+"Sibelius" 32915293
+"Adobe" 48808976
+"Yahoo" 51251479
+"Chami" 60513672
+"Microsoft" 63401981
+"Altavista" 63631472
+"Cakewalk" 107712830
+"Finale" 112058979
+"Lavasoft" 117201677
+"Borland" 152654382
