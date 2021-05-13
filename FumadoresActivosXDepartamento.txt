@@ -1,0 +1,15 @@
+"Departamento" "Fuma" "Freq"
+"Antioquia" "Yes" 34
+"Arauca" "Yes" 1
+"Atlántico" "Yes" 6
+"Bolívar" "Yes" 9
+"Caldas" "Yes" 1
+"Caquetá" "Yes" 0
+"Casanare" "Yes" 0
+"Cauca" "Yes" 1
+"Nariño" "Yes" 0
+"San Andrés y Providencia" "Yes" 0
+"Sucre" "Yes" 0
+"Valle del Cauca" "Yes" 1
+"Vaupés" "Yes" 0
+"Vichada" "Yes" 1
