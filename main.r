@@ -1,4 +1,5 @@
-## ----Protocolo, eval=FALSE, include=TRUE------------------------------------------------
+
+## ----Protocolo, eval=FALSE, include=TRUE---------------------------------------
 ## "Protocolo:
 ## 
 ##   1. Daniel felipe Villa Rengifo
@@ -12,7 +13,7 @@
 ##      https://thepracticalr.wordpress.com/2016/09/23/importing-data-into-r/"
 
 
-## ----Sintaxis, eval=FALSE, include=TRUE-------------------------------------------------
+## ----Sintaxis, eval=FALSE, include=TRUE----------------------------------------
 ## # Sintaxis
 ## read.table(file,                 # Archivo de datos TXT indicado como string o ruta completa al archivo
 ##            header = FALSE,       # Si se muestra el encabezado (TRUE) o no (FALSE)
@@ -20,7 +21,7 @@
 ##            dec = ".")            # Caracter utilizado para separar decimales de los números en el archivo
 
 
-## ----Leer la base de datos--------------------------------------------------------------
+## ----Leer la base de datos-----------------------------------------------------
 # Leer la base de datos:
 base1 <- read.table(file = "Base.txt", header = T, sep = "|")
 print(base1)
@@ -33,7 +34,7 @@ base1$Empresa <- as.factor(base1$Empresa)
 base1$Coche_Actual <- as.factor(base1$Coche_Actual)
 
 
-## ---------------------------------------------------------------------------------------
+## ------------------------------------------------------------------------------
 library(dplyr)
 
 # Seleccionamos las columnas necesarias:
@@ -74,14 +75,14 @@ write.table(Salario_Civil, file = "SalarioTOtal_EstadoCivil.txt", row.names = F)
 write.table(Salario_Empresa, file = "SalarioTotal_Empresa.txt", row.names = F)
 
 
-## ---------------------------------------------------------------------------------------
+## ------------------------------------------------------------------------------
 # Precio estandarizado
 
 Precio_Estan <- 50000000
 
 
 
-## ---------------------------------------------------------------------------------------
+## ------------------------------------------------------------------------------
 options(scipen=999)
 
 menor1M <- filter(base1, Salario <= 1000000)
@@ -94,7 +95,41 @@ menor1M$Salario_Aumentado <- menor1M$Salario * Precio_Estan
 print(menor1M)
 
 
-## ---------------------------------------------------------------------------------------
+## ------------------------------------------------------------------------------
 #Exportamos los resultados:
 write.table(menor1M, file = "Salario_Aumentado.txt", row.names = F)
+
+
+## ------------------------------------------------------------------------------
+# Leer la base de datos:
+base2 <- read.table(file = "Base2.txt", header = T, sep = "|")
+print(base2)
+
+
+# Convritamos en factor dos columnas:
+base2$Fuma <- as.factor(base2$Fuma)
+print(base2$Fuma)
+
+base2$Departamento <- as.factor(base2$Departamento)
+print(base2$Departamento)
+
+
+## ------------------------------------------------------------------------------
+# Ahora fabrico una tabla donde Nos muestre la tabla pedida:
+
+fumaXdepartamento <- with(base2, table(Departamento, Fuma))
+
+# Convertimos en data frame la tabla anterior:
+
+fumaXdepartamento <- data.frame(fumaXdepartamento)
+
+# Filtramos la tabla por fumadores (Yes)
+
+FumaYes <- filter(fumaXdepartamento, Fuma == "Yes")
+
+"Observemos que el departamento con mayor fumadores es Antioquia"
+
+# Ahora exportemos la tabla:
+
+write.table(FumaYes, file = "FumadoresActivosXDepartamento.txt", row.names = F)
 

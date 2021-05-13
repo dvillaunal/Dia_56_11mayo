@@ -132,3 +132,41 @@ print(menor1M)
 #Exportamos los resultados:
 write.table(menor1M, file = "Salario_Aumentado.txt", row.names = F)
 ```
+
+# 2° Ejercicio:
+
+En este segundo ejercicio vamos a ver cual es el departamento colombiano _(Solamente contiene 14 departamentos)_ con mayores fumadores.
+
+```{r}
+# Leer la base de datos:
+base2 <- read.table(file = "Base2.txt", header = T, sep = "|")
+print(base2)
+
+
+# Convritamos en factor dos columnas:
+base2$Fuma <- as.factor(base2$Fuma)
+print(base2$Fuma)
+
+base2$Departamento <- as.factor(base2$Departamento)
+print(base2$Departamento)
+```
+
+```{r}
+# Ahora fabrico una tabla donde Nos muestre la tabla pedida:
+
+fumaXdepartamento <- with(base2, table(Departamento, Fuma))
+
+# Convertimos en data frame la tabla anterior:
+
+fumaXdepartamento <- data.frame(fumaXdepartamento)
+
+# Filtramos la tabla por fumadores (Yes)
+
+FumaYes <- filter(fumaXdepartamento, Fuma == "Yes")
+
+"Observemos que el departamento con mayor fumadores es Antioquia"
+
+# Ahora exportemos la tabla:
+
+write.table(FumaYes, file = "FumadoresActivosXDepartamento.txt", row.names = F)
+```
